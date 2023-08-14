@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    padding:0;
+}
+html{scroll-behavior:smooth}
+/* navbar */
+header{
+    width: 100%;
+    background-color: rgb(178, 194, 194);
+    display: flex;
+    position: fixed;
+    padding: 5px;
+    /* justify-content: space-between */
+}
+
+.bio{
+    width:20%;
+    /* background-color: blue; */
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.wrap-bio{
+    /* background-color: rgb(80, 173, 101); */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.wrap-nav{
+    width: 80%;
+    /* background-color: rgb(173, 66, 66); */
+}
+
+.nav_links{
+    width: 90%;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    /* font-size:smaller; */
+    /* background-color: rgb(79, 97, 97); */
+
+    
+}
+li a{
+    text-decoration:none ;
+    font-size: 17px;
+    justify-content:flex-end ;
+    color: rgb(20, 19, 19);
+    display: block;
+}
+
+li a:hover{
+    color: blue;
+    cursor: pointer;
+    /* cursor: wait; */
+}
+
+/*  hero */
+.container{
+    width: 95%;
+    /* background-color: brown; */
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 100px;
+    display: flex;
+}
+
+.box-img{
+    width: 30%;
+    background-color: rgb(213, 210, 205);
+    margin-top: 5px;
+    /* background-image: url('images/img1.png'); */
+}
+
+.box-profil{
+    width: 70%;
+    background-color: rgb(213, 210, 205);
+    margin-top: 5px;
+    font-size: 18px;
+    padding-top: 25px;
+    text-align: left;
+}
+
+.container-content{
+    width: 95%;
+    /* background-color: brown; */
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+/* footer */
+.box-footer{
+    background-color: rgb(178, 194, 194);
+    text-align: center;
+    padding: 20px 0;
+}
